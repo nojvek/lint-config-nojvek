@@ -31,7 +31,6 @@ const TS_OVERRIDE = {
   parser: `@typescript-eslint/parser`,
   parserOptions: {
     project: `./tsconfig.json`,
-    tsconfigRootDir: __dirname,
     // turn this false when https://github.com/typescript-eslint/typescript-eslint/issues/1723 is fixed
     createDefaultProgram: true,
   },
