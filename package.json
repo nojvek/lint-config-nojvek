@@ -1,0 +1,33 @@
+{
+  "name": "lint-config-nojvek",
+  "version": "1.0.0",
+  "description": "eslint (with ts-eslint) + prettier shared configs ",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "prettier --list-different '.*.js' && eslint --no-ignore '.*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nojvek/lint-config-nojvek.git"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "config"
+  ],
+  "author": "nojvek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nojvek/lint-config-nojvek/issues"
+  },
+  "homepage": "https://github.com/nojvek/lint-config-nojvek#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "2.23.0",
+    "@typescript-eslint/parser": "2.23.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-react": "7.18.3",
+    "prettier": "1.19.1",
+    "prettier-eslint": "9.0.1"
+  }
+}

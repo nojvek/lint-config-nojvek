@@ -1,2 +1,3 @@
 # lint-config-nojvek
-eslint (with ts-eslint) + prettier shared configs 
+
+eslint (with ts-eslint) + prettier shared configs
