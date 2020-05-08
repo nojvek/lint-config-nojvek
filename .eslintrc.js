@@ -31,8 +31,6 @@ const TS_OVERRIDE = {
   parser: `@typescript-eslint/parser`,
   parserOptions: {
     project: `./tsconfig.json`,
-    // turn this false when https://github.com/typescript-eslint/typescript-eslint/issues/1723 is fixed
-    createDefaultProgram: true,
   },
   plugins: [`@typescript-eslint`],
   extends: [
@@ -88,7 +86,6 @@ module.exports = {
     'key-spacing': [`error`, {beforeColon: false, afterColon: true, mode: `minimum`}],
     'keyword-spacing': [`error`],
     'linebreak-style': [`error`, `unix`],
-    'no-console': [WARN_IF_DEV, {allow: [`info`, `warn`, `error`, `assert`]}],
     'no-control-regex': [`off`],
     'no-debugger': [WARN_IF_DEV],
     'no-multi-spaces': [`error`],
