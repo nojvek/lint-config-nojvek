@@ -1,6 +1,6 @@
 {
   "name": "lint-config-nojvek",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "eslint (with ts-eslint) + prettier shared configs ",
   "main": ".eslintrc.js",
   "scripts": {
