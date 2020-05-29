@@ -48,6 +48,7 @@ const TS_OVERRIDE = {
     // we replace the eslint rule with @typescript-eslint/{rule}
     ...asTsEslintRules(TS_ES_RULES),
     '@typescript-eslint/array-type': [`error`, {default: `array-simple`}],
+    '@typescript-eslint/no-misused-promises': ['error', {checksVoidReturn: false}],
 
     // these errors from recommended-requiring-type-checking are a bit too annoying
     '@typescript-eslint/ban-ts-ignore': [`off`],
